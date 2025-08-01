@@ -2,7 +2,7 @@
 print("Hello 😊 I am Ai Bot. What is your name?")
 name = input()
 print(f"Hello {name}👍") 
-answer = input("How are you feeling today?").lower()
+answer = input("How are you feeling today? ").lower()
 if answer == "good":
     print("I'm glad you are having a good day!😊")
 elif answer == "bad":
